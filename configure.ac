@@ -1689,6 +1689,7 @@ do_build="\
   mod_vhostdb \
   mod_webdav \
   mod_wstunnel \
+  mod_mptcplog \
 "
 
 lighty_track_feature() {

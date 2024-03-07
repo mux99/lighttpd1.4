@@ -868,6 +868,7 @@ if(BUILD_STATIC)
     mod_deflate.c
     mod_dirlisting.c
     mod_extforward.c
+	mod_mptcplog.c
     mod_proxy.c
     mod_rrdtool.c
     mod_sockproxy.c
@@ -943,6 +944,7 @@ add_and_install_library(mod_deflate mod_deflate.c)
 add_and_install_library(mod_dirlisting mod_dirlisting.c)
 add_and_install_library(mod_extforward mod_extforward.c)
 add_and_install_library(mod_h2 "h2.c;ls-hpack/lshpack.c;algo_xxhash.c")
+add_and_install_library(mod_mptcplog mod_mptcplog.c)
 add_and_install_library(mod_proxy mod_proxy.c)
 add_and_install_library(mod_rrdtool mod_rrdtool.c)
 add_and_install_library(mod_sockproxy mod_sockproxy.c)

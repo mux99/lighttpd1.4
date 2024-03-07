@@ -777,6 +777,7 @@ modules = [
 	[ 'mod_vhostdb', [ 'mod_vhostdb.c', 'mod_vhostdb_api.c' ] ],
 	[ 'mod_webdav', [ 'mod_webdav.c' ], [ libsqlite3, libxml2, libelftc ] ],
 	[ 'mod_wstunnel', [ 'mod_wstunnel.c' ], libcrypto ],
+	[ 'mod_mptcplog', [ 'mod_mptcplog.c' ] ],
 ]
 endif
 

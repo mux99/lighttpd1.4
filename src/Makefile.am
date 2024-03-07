@@ -336,6 +336,11 @@ mod_accesslog_la_SOURCES = mod_accesslog.c
 mod_accesslog_la_LDFLAGS = $(common_module_ldflags)
 mod_accesslog_la_LIBADD = $(common_libadd)
 
+lib_LTLIBRARIES += mod_mptcplog.la
+mod_mptcplog_la_SOURCES = mod_mptcplog.c
+mod_mptcplog_la_LDFLAGS = $(common_module_ldflags)
+mod_mptcplog_la_LIB
+
 lib_LTLIBRARIES += mod_wstunnel.la
 mod_wstunnel_la_SOURCES = mod_wstunnel.c
 mod_wstunnel_la_LDFLAGS = $(common_module_ldflags)
